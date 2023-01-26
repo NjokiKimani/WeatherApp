@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>newWeatherApp</title>
+    <link rel="stylesheet" href="newWeather.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello 🌞</h1>
+      <form class="searchCity">
+        <input type="text" class="cityInput" placeholder="Enter a city" />
+        <button class="submit">submit</button>
+      </form>
+      <div class="iMessage">
+        Today is
+        <span class="day">Mon</span>
+        <span class="month">Jan</span>-<span class="date">23</span>,
+        <span class="year">2020</span>
+      </div>
+      <div class="iTime">
+        It is currently
+        <span class="hr">5</span><span class="min">25</span>hrs
+      </div>
+      <div class="cityOfInterest">Nairobi</div>
+      <div class="tempDetails">
+        <span class="temp">66</span><span class="degree">°</span>
+      </div>
+      <div class="tempDescription">Mostly Sunny</div>
+      <div class="highLow">
+        <span class="high">H:<span class="highTemp">72</span><span class="degree">°</span> 
+                    <span class="low"> L:<span class="lowTemp">50</span><span class="degree">°</span> 
+      </div>
+
+      <div class="conditionsCreate">
+        <span class="prec">Precipitation</span>
+        <span class="straight">|</span>
+        <span class="feel">feels like</span>
+        <span class="straight">|</span>
+        <span class="hum">Humidity</span>
+      </div>
+      <div class="conditionsValue">
+        <div class="values">
+          <span class="precValue">0"</span>
+          <span class="feelValue">68°</span>
+          <span class="humValue">0%</span>
+        </div>
+      </div>
+      <div class="weatherLink">
+        <a href="#" target="https://www.google.com" class="cityLink"
+          >weather.com</a
+        >
+      </div>
+    </div>
+    <script src="newWeather.js"></script>
+  </body>
+</html>
