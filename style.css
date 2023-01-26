@@ -90,9 +90,12 @@ h1 {
 .values {
   position: relative;
 }
-.openSource{
-  text-align: center;
-  text-decoration: none;
+.gitLink{
+ text-align: center;
+
     font-family: "Coming Soon", cursive;
   font-family: "Patrick Hand", cursive;
+}
+.openSource{
+   text-decoration: none;
 }
