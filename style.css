@@ -90,3 +90,9 @@ h1 {
 .values {
   position: relative;
 }
+.openSource{
+  text-align: center;
+  text-decoration: none;
+    font-family: "Coming Soon", cursive;
+  font-family: "Patrick Hand", cursive;
+}
