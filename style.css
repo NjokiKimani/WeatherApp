@@ -1,0 +1,92 @@
+.container {
+  border: 1px solid grey;
+  width: 30%;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-family: "Coming Soon", cursive;
+  font-family: "Patrick Hand", cursive;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 5px;
+}
+.cityInput {
+  margin-top: 20px;
+  width: 90px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.submit {
+  display: block;
+  margin-top: 5px;
+  background: #1b73ec;
+  border-radius: 5px;
+  border-color: #1b73ec;
+  color: white;
+}
+.iMessage {
+  margin-top: 5px;
+  position: relative;
+  text-align: right;
+}
+.iTime {
+  position: relative;
+  text-align: right;
+}
+.iMessage,
+.iTime {
+  font-size: 18px;
+}
+.cityOfInterest {
+  text-align: center;
+  font-size: 40px;
+}
+.tempDetails {
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+
+.tempDescription {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+.highLow {
+  text-align: center;
+  position: relative;
+  top: -25px;
+  font-size: 20px;
+}
+.high {
+  padding-right: 20px;
+}
+.conditionsCreate,
+.conditionsValue {
+  text-align: center;
+}
+
+.prec,
+.feel,
+.hum {
+  text-decoration: underline;
+}
+.straight {
+  opacity: 0.6;
+}
+.prec:hover,
+.feel:hover,
+.hum:hover {
+  color: #1b73ec;
+  cursor: pointer;
+}
+.weatherLink {
+  position: relative;
+  text-align: right;
+}
+
+.values {
+  position: relative;
+}
